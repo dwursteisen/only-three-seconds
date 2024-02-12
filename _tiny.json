@@ -1,0 +1,37 @@
+{
+    "version": "V1",
+    "name": "Awesome Dragons Game",
+    "resolution": {
+        "width": 256,
+        "height": 256
+    },
+    "sprites": {
+        "width": 16,
+        "height": 16
+    },
+    "zoom": 2,
+    "colors": [
+        "#1d2b53",
+        "#fff1e8",
+        "#FF004D"
+    ],
+    "scripts": [
+        "title.lua",
+        "game.lua"
+    ],
+    "spritesheets": [
+        "spr.png"
+    ],
+    "levels": [
+        "levels/simplified/Level_0/",
+        "levels/simplified/Level_1/",
+        "levels/simplified/Level_2",
+        "levels/simplified/Level_3",
+        "levels/simplified/Level_4"
+    ],
+    "sounds": [
+        "sfx-0.sfx",
+        "sfx-1.sfx",
+        "sfx-2.sfx"
+    ]
+}

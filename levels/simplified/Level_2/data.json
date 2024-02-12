@@ -1,0 +1,43 @@
+{
+	"identifier": "Level_2",
+	"uniqueIdentifer": "02426540-b0a0-11ee-b1ac-d903e0c7a76e",
+	"x": -1,
+	"y": -1,
+	"width": 256,
+	"height": 256,
+	"bgColor": "#696A79",
+	"neighbourLevels": [],
+	"customFields" : {},
+	"layers": [
+		"Tiles.png",
+		"IntGrid.png"
+	],
+	"entities": {
+		"Spawn": [
+			{
+				"id": "Spawn",
+				"iid": "35f84f80-b0a0-11ee-b1ac-cbcdc0f2902c",
+				"layer": "Entities",
+				"x": 32,
+				"y": 192,
+				"width": 16,
+				"height": 16,
+				"color": 12470831,
+				"customFields" : {}
+			}
+		],
+		"Exit": [
+			{
+				"id": "Exit",
+				"iid": "384f37d0-b0a0-11ee-b1ac-51ea1bce8c3e",
+				"layer": "Entities",
+				"x": 208,
+				"y": 32,
+				"width": 16,
+				"height": 16,
+				"color": 15389866,
+				"customFields" : {}
+			}
+		]
+	}
+}
